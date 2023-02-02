@@ -4,8 +4,9 @@ const size = {
 };
 
 const theme = {
-  mainColor: "#000",
-  subColor: "#ccc",
+  mainColor: "#FCE44D",
+  textColor: "#374151",
+  bgColor: "#fff",
   mobile: `(max-width: ${size.mobile})`,
   desktop: `(min-width: ${size.desktop})`,
 };
