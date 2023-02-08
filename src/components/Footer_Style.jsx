@@ -12,6 +12,8 @@ export const LogoWrap = styled.div`
   width: 15%;
 `;
 
+export const Logo = styled.img``;
+
 export const Text = styled.p`
   margin-top: 10px;
   color: #7e7e7e;

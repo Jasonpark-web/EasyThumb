@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./Footer_Style.jsx";
-import { ReactComponent as Logo } from "../assets/logo/logo_mono.svg";
+import MonoLogo from "../assets/logo/logo_mono.svg";
 
 function Footer() {
   return (
     <S.Container>
       <S.LogoWrap>
-        <Logo />
+        <S.Logo src={MonoLogo} />
       </S.LogoWrap>
       <S.Text>
         © EASYTHUMB, {new Date().getFullYear()} ALL RIGHTS RESERVED.
